@@ -308,10 +308,74 @@ a.icon-link:after {
 a.icon-link:hover:after {
   width: 20%;
 }
+/* General Styles */
+#resources {
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.feature-post {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.feature-post h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.feature-post p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Mission Section Background */
+.mission-section {
+  background-image: url('https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg');
+}
+
+/* Vision Section Background */
+.vision-section {
+  background-image: url('https://images.pexels.com/photos/1748250/pexels-photo-1748250.jpeg');
+}
+
+/* Operating Area Section Background */
+.operating-area-section {
+  background-image: url('https://images.pexels.com/photos/1811637/pexels-photo-1811637.jpeg');
+}
+
+/* Services Section Background */
+.services-section {
+  background-image: url('https://images.pexels.com/photos/1694383/pexels-photo-1694383.jpeg');
+}
+
+/* Button Styles */
+.second-button {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.second-button:hover {
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
 
 /* feature section  */
 
-.feature-paragraph {
+/*.feature-paragraph {
   font-size: 26px;
   line-height: 60px;
 }
@@ -326,9 +390,112 @@ a.icon-link:hover:after {
     font-size: 19px;
     line-height: 36px;
   }
+}*/
+/* General Styles */
+#resources {
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
-/* service section  */
+.feature-post {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.feature-post h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.feature-post p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Mission Section Background */
+.mission-section {
+  background-image: url('https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg');
+}
+
+/* Vision Section Background */
+.vision-section {
+  background-image: url('https://images.pexels.com/photos/1748250/pexels-photo-1748250.jpeg');
+}
+
+/* Operating Area Section Background */
+.operating-area-section {
+  background-image: url('https://images.pexels.com/photos/1811637/pexels-photo-1811637.jpeg');
+}
+
+/* Services Section Background */
+.services-section {
+  background-image: url('https://images.pexels.com/photos/1694383/pexels-photo-1694383.jpeg');
+}
+
+/* Button Styles */
+.second-button {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.second-button:hover {
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+  /* Dynamic background styling */
+    #services-intro {
+        background: url('https://images.pexels.com/photos/1694383/pexels-photo-1694383.jpeg') no-repeat center center/cover;
+        color: white;
+        padding: 50px;
+        text-align: center;
+    }
+    .service-post {
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .fast-transport {
+        background: url('https://images.pexels.com/photos/2348359/pexels-photo-2348359.jpeg') no-repeat center center/cover;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .ocean-freight {
+        background: url('https://images.pexels.com/photos/327490/pexels-photo-327490.jpeg') no-repeat center center/cover;
+        background-color: rgba(0, 0, 128, 0.6);
+    }
+    .customs {
+        background: url('https://images.pexels.com/photos/768472/pexels-photo-768472.jpeg') no-repeat center center/cover;
+        background-color: rgba(128, 0, 0, 0.6);
+    }
+    .monthly-rates {
+        background: url('https://images.pexels.com/photos/4386366/pexels-photo-4386366.jpeg') no-repeat center center/cover;
+        background-color: rgba(0, 128, 0, 0.6);
+    }
+    .icon-link {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+</style>
+
+
+/* service section  *//*
+
 
 .service-post {
   background: var(--grey-color);
@@ -338,7 +505,9 @@ a.icon-link:hover:after {
   background: var(--accent-color);
 }
 
-/* artical-post section  */
+*/
+/* artical-post section  *//*
+
 
 .artical-post {
   background: var(--grey-color);
@@ -347,6 +516,7 @@ a.icon-link:hover:after {
 .artical-post:hover {
   background: var(--accent-color);
 }
+*/
 
 /* client section  */
 
